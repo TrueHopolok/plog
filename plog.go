@@ -1,3 +1,6 @@
+// Package plog implement custom realisation of log in golang
+//
+// Single logger can be used in multithreads.
 package plog
 
 import (

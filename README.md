@@ -4,7 +4,7 @@ Contain a customly written logger with methods:
 - `Debug/Info/Warn/Error/Fatal` - for printing logs;
 - `Set methods` - to change output information, format, logger level;
 - `fmt.Fprintf` - all logs act as formating printing function but with addition of log information.
-
+- `Mutexes` - single logger for all threads
 ---
 
 ### Example usage:
